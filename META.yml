@@ -12,7 +12,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.6.8, CPAN::Meta::Converter version 2.132661'
+generated_by: 'Minilla/v0.8.1, CPAN::Meta::Converter version 2.132830'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -27,10 +27,11 @@ no_index:
     - eg
     - examples
     - author
+    - builder
 provides:
   Plack::Request::WithEncoding:
     file: lib/Plack/Request/WithEncoding.pm
-    version: 0.01
+    version: 0.10
 requires:
   Encode: 0
   Hash::MultiValue: 0
@@ -40,5 +41,7 @@ requires:
 resources:
   bugtracker: https://github.com/moznion/Plack-Request-WithEncoding/issues
   homepage: https://github.com/moznion/Plack-Request-WithEncoding
-  repository: git://github.com/moznion/Plack-Request-WithEncoding.git
-version: 0.01
+  repository: git://github.com/moznion/Plack-Request-WithEncoding
+version: 0.10
+x_contributors:
+  - 'Songmu <y.songmu@gmail.com>'
