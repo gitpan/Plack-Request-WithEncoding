@@ -31,7 +31,7 @@ no_index:
 provides:
   Plack::Request::WithEncoding:
     file: lib/Plack/Request/WithEncoding.pm
-    version: 0.11
+    version: 0.12
 requires:
   Encode: 0
   Hash::MultiValue: 0
@@ -42,6 +42,6 @@ resources:
   bugtracker: https://github.com/moznion/Plack-Request-WithEncoding/issues
   homepage: https://github.com/moznion/Plack-Request-WithEncoding
   repository: git://github.com/moznion/Plack-Request-WithEncoding.git
-version: 0.11
+version: 0.12
 x_contributors:
   - 'Songmu <y.songmu@gmail.com>'
