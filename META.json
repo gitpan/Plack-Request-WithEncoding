@@ -65,7 +65,7 @@
    "provides" : {
       "Plack::Request::WithEncoding" : {
          "file" : "lib/Plack/Request/WithEncoding.pm",
-         "version" : "0.10"
+         "version" : "0.11"
       }
    },
    "release_status" : "stable",
@@ -75,11 +75,11 @@
       },
       "homepage" : "https://github.com/moznion/Plack-Request-WithEncoding",
       "repository" : {
-         "url" : "git://github.com/moznion/Plack-Request-WithEncoding",
+         "url" : "git://github.com/moznion/Plack-Request-WithEncoding.git",
          "web" : "https://github.com/moznion/Plack-Request-WithEncoding"
       }
    },
-   "version" : "0.10",
+   "version" : "0.11",
    "x_contributors" : [
       "Songmu <y.songmu@gmail.com>"
    ]
